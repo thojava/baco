@@ -3,7 +3,17 @@
     "allow": [
       "Bash(cmd.exe:*)",
       "Bash(/c/Program Files/GitHub CLI/gh.exe extension:*)",
-      "Bash(powershell.exe:*)"
+      "Bash(powershell.exe:*)",
+      "Bash(npm install:*)",
+      "Bash(agent-browser install:*)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe upskill:*)",
+      "Bash(agent-browser skill:*)",
+      "Bash(agent-browser:*)",
+      "Bash($GH_PATH upskill:*)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(gh upskill:*)",
+      "Bash(npx -y @adobe/aem-cli up --no-open --forward-browser-logs)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
     ]
   }
 }
