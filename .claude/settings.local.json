@@ -13,7 +13,12 @@
       "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
       "Bash(gh upskill:*)",
       "Bash(npx -y @adobe/aem-cli up --no-open --forward-browser-logs)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/nav.plain.html)",
+      "Bash(curl -s https://stc.bindo.vn/logo-bindo.svg -o D:/Source/AEM/baco/icons/bindo-logo.svg)",
+      "Bash(pkill -f \"aem-cli\")",
+      "Bash(npx @adobe/aem-cli up --no-open --forward-browser-logs --html-folder drafts)",
+      "Bash(curl -sv http://localhost:3000/nav.plain.html)"
     ]
   }
 }
