@@ -18,7 +18,13 @@
       "Bash(curl -s https://stc.bindo.vn/logo-bindo.svg -o D:/Source/AEM/baco/icons/bindo-logo.svg)",
       "Bash(pkill -f \"aem-cli\")",
       "Bash(npx @adobe/aem-cli up --no-open --forward-browser-logs --html-folder drafts)",
-      "Bash(curl -sv http://localhost:3000/nav.plain.html)"
+      "Bash(curl -sv http://localhost:3000/nav.plain.html)",
+      "Read(//c/Users/Tho/Desktop/**)",
+      "Read(//c/Users/Tho/Pictures/**)",
+      "Read(//c/Users/Tho/**)",
+      "Bash(curl -s http://localhost:3000/product-grid.plain.html)",
+      "Bash(curl -s \"http://localhost:3000/\")",
+      "Bash(python3 -c ':*)"
     ]
   }
 }
