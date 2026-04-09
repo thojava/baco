@@ -1,3 +1,7 @@
+.cards {
+  --cards-border: #dadada;
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -8,7 +12,7 @@
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
+  border: 1px solid var(--cards-border);
   background-color: var(--background-color);
 }
 

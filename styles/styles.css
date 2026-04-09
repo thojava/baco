@@ -19,6 +19,16 @@
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
+  /* brand palette */
+  --color-white: #fff;
+  --color-brand-green: #286228;
+  --color-brand-red: #c0392b;
+  --color-brand-pink: #d6246e;
+  --color-brand-pink-hover: #b81d5b;
+  --color-border: #e0e0e0;
+  --color-muted: #555;
+  --color-subtle: #444;
+
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
   --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;

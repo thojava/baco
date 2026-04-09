@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp:*)",
+      "Bash(curl -s \"https://admin.da.live/list/thojava/baco\")",
+      "Bash(curl -sv \"https://admin.da.live/list/thojava/baco\")",
+      "mcp__da-prod-mcp__da_list_sources",
+      "mcp__da-prod-mcp__da_get_source",
+      "WebFetch(domain:www.bindo.vn)",
+      "Bash(npx playwright:*)",
+      "Bash(node scripts/scrape-bindo.js)",
+      "mcp__da-prod-mcp__da_update_source"
+    ]
+  }
+}

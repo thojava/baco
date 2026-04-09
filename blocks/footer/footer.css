@@ -1,12 +1,23 @@
 /* ── Footer shell ─────────────────────────────────────────── */
 footer {
+  --footer-white: var(--color-white, #fff);
+  --footer-border: var(--color-border, #e0e0e0);
+  --footer-muted: var(--color-muted, #555);
+  --footer-subtle: var(--color-subtle, #444);
+  --footer-cta: var(--color-brand-pink, #d6246e);
+  --footer-cta-hover: var(--color-brand-pink-hover, #b81d5b);
+  --footer-danger: var(--color-brand-red, #c0392b);
+  --footer-danger-hover: #96281b;
+  --footer-bottom-bg: #f0f0f0;
+  --footer-border-subtle: #ccc;
+
   font-size: var(--body-font-size-xs);
 }
 
 /* ── Links section ────────────────────────────────────────── */
 footer .footer-links-section {
   background-color: var(--background-color, #fff);
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid var(--footer-border);
 }
 
 footer .footer-columns {
@@ -59,7 +70,7 @@ footer .footer-col ul {
 }
 
 footer .footer-col ul li a {
-  color: #555;
+  color: var(--footer-muted);
   text-decoration: none;
   font-size: 0.85rem;
   line-height: 1.4;
@@ -72,7 +83,7 @@ footer .footer-col ul li a:hover {
 footer .footer-col p {
   margin: 0 0 6px;
   font-size: 0.85rem;
-  color: #555;
+  color: var(--footer-muted);
 }
 
 footer .footer-col p strong {
@@ -84,7 +95,7 @@ footer .footer-col p strong {
 footer .footer-newsletter-form {
   display: flex;
   margin-top: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--footer-border-subtle);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -99,8 +110,8 @@ footer .footer-newsletter-form input[type='email'] {
 }
 
 footer .footer-newsletter-form button {
-  background: #d6246e;
-  color: #fff;
+  background: var(--footer-cta);
+  color: var(--footer-white);
   border: none;
   padding: 8px 14px;
   font-size: 0.85rem;
@@ -111,12 +122,12 @@ footer .footer-newsletter-form button {
 }
 
 footer .footer-newsletter-form button:hover {
-  background: #b81d5b;
+  background: var(--footer-cta-hover);
 }
 
 /* ── Bottom bar ───────────────────────────────────────────── */
 footer .footer-bottom-section {
-  background-color: #f0f0f0;
+  background-color: var(--footer-bottom-bg);
   position: relative;
 }
 
@@ -136,7 +147,7 @@ footer .footer-bottom-section .default-content-wrapper {
 footer .footer-bottom-section p {
   margin: 0 0 4px;
   font-size: 0.8rem;
-  color: #444;
+  color: var(--footer-subtle);
   line-height: 1.5;
 }
 
@@ -149,8 +160,8 @@ footer .footer-back-to-top {
   display: block;
   margin: 16px auto 0;
   padding: 10px 20px;
-  background: #c0392b;
-  color: #fff;
+  background: var(--footer-danger);
+  color: var(--footer-white);
   font-size: 0.85rem;
   font-weight: 600;
   border: none;
@@ -169,5 +180,5 @@ footer .footer-back-to-top {
 }
 
 footer .footer-back-to-top:hover {
-  background: #96281b;
+  background: var(--footer-danger-hover);
 }
